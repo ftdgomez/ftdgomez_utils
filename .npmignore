@@ -1,2 +1,7 @@
 tester/
 /tester
+node_modules/
+src/
+tests/
+.babelrc
+.gitignore

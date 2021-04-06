@@ -1,0 +1,22 @@
+{
+  "name": "ftdgomez-utils",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Just a bunch of helpers functions that I use all the time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:docs": "jsdoc2md"
+  },
+  "keywords": [
+    "utils",
+    "nextjs",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Daniel Gomez <dgcodedev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^7.0.1"
+  }
+}

@@ -7,6 +7,7 @@
     "build": "babel dev --out-dir dist",
     "dev": "babel dev --watch --out-dir dist",
     "clean": "rm -rf ./dist",
+    "release": "standard-commit",
     "generate:docs": "jsdoc2md"
   },
   "keywords": [
@@ -23,6 +24,7 @@
     "@babel/preset-env": "^7.13.12",
     "babel-preset-minify": "^0.5.1",
     "jest": "^26.6.3",
-    "jsdoc-to-markdown": "^7.0.1"
+    "jsdoc-to-markdown": "^7.0.1",
+    "standard-commit": "^4.2.4"
   }
 }

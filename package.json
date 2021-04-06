@@ -8,7 +8,8 @@
     "dev": "babel dev --watch --out-dir dist",
     "clean": "rm -rf ./dist",
     "release": "standard-version",
-    "generate:docs": "jsdoc2md"
+    "generate:docs": "jsdoc2md",
+    "test": "jest"
   },
   "keywords": [
     "utils",
@@ -22,6 +23,7 @@
     "@babel/cli": "^7.13.14",
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
+    "@types/jest": "^26.0.22",
     "babel-preset-minify": "^0.5.1",
     "jest": "^26.6.3",
     "jsdoc-to-markdown": "^7.0.1",

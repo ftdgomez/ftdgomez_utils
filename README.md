@@ -24,7 +24,6 @@ client side.
 ### TODO:
 Write test for all functions:
 
-[] ->'validationMethods'
 [] ->'_handleError'
 [] ->'_fetch'
 [] ->'_setArrayToObject'
@@ -37,7 +36,7 @@ Write test for all functions:
 [] ->'_middleware
 [] ->'isString'
 [] ->'isAccepted'
-[] ->'enum'
+[] ->'oneOf'
 [] ->'isNumber'
 [] ->'isDate'
 [] ->'isEmail'

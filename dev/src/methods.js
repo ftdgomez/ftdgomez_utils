@@ -10,7 +10,7 @@ export const validationMethods = {
       operator === true
     );
   },
-  enum(operator, values) {
+  oneOf(operator, values) {
     let result = false;
     values.forEach((o) => {
       if (operator === o) result = true;

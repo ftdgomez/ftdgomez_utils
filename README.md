@@ -6,7 +6,7 @@ Functions are self documented with JSDoc format
 # Installation
 `npm i ftdgomez_utils --save`
 
-See `utils.md` for documentation
+See [utils.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) for documentation
 
 env variables:
 

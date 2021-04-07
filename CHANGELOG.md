@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.2.0...v2.3.0) (2021-04-07)
+
+
+### Bug Fixes
+
+* add release:minor script ([d28e4e1](https://github.com/ftdgomez/ftdgomez_utils/commit/d28e4e1cd6228332acd47d844009575b7d6c222e))
+* never talk about this ([ceff996](https://github.com/ftdgomez/ftdgomez_utils/commit/ceff99626e4140c8d9e59d6d49dbc5eab6fc0e47))
+
 ## [2.2.0](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.1.0...v2.2.0) (2021-04-07)
 
 ## [2.1.0](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.0.0...v2.1.0) (2021-04-07)

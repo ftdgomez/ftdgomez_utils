@@ -1,6 +1,6 @@
 {
   "name": "ftdgomez-utils",
-  "version": "2.0.0",
+  "version": "2.2.0",
   "description": "Just a bunch of helpers functions that I use all the time",
   "main": "dist/index.js",
   "scripts": {

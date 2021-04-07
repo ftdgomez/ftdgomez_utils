@@ -8,6 +8,7 @@
     "dev": "babel dev --watch --out-dir dist",
     "clean": "rm -rf ./dist",
     "release": "standard-version",
+    "release:minor": "npm run release -- --release-as minor",
     "generate:docs": "jsdoc2md",
     "test": "jest"
   },

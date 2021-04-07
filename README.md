@@ -20,6 +20,38 @@ client side.
 - NEXT_PUBLIC_AUTH_COOKIE_NAME
 > used by _checkAuthorizationCookie
 
+### Usage:
+For now, there are two set of functions. The `validationMethods` and `utils`.
+
+#### Validation Methods:
+See [validationMethods.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) for documentation
+```javascript
+import { validationMethods } from 'ftdgomez-utils';
+
+const { isString, oneOf, isEmail } = validationMethods;
+
+isString('hello world') // return true
+oneOf('value', ['yes','no','value']) // return true
+isEmail('hellothisisnotanemail') // return false
+```
+
+#### Utils:
+See [utils.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) for documentation
+
+```javascript
+
+import { utils } from 'ftdgomez-utils';
+
+const { _objectSize, _where } = validationMethods;
+
+_objectSize({ a: 1, b: 2, c: 3}) // return 3
+
+_where(
+    [{ id: 1, name: 'John'}, { id: 2, name: 'Jane' }], 
+    {id: 1}
+  ); // return [{ id: 1, name: 'John' }]
+
+```
 
 ### TODO:
 Write test for all functions:
@@ -31,7 +63,7 @@ Write test for all functions:
 - [ ] ->'_daysFromDate'
 - [ ] ->'_checkAuthorizationCookie'
 - [ ] ->'_objectHasValue'
-- [ ] ->'_objectSize'
+- [x] ->'_objectSize'
 - [ ] ->'_where'
 - [ ] ->'_middleware
 - [x] ->'isString'

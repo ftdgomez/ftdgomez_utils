@@ -1,6 +1,6 @@
 {
   "name": "ftdgomez-utils",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Just a bunch of helpers functions that I use all the time",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "clean": "rm -rf ./dist",
     "release": "standard-version",
     "release:minor": "npm run release -- --release-as minor",
+    "release:patch": "npm run release -- --release-as patch",
     "push-release": "git push --follow-tags origin main && npm publish",
     "generate:docs": "jsdoc2md",
     "test": "jest"

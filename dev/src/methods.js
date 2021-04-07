@@ -21,7 +21,7 @@ export const validationMethods = {
   },
   /**
    * @param {any} operator
-   * @param { Array <String> } values
+   * @param { Array } values
    * @returns {Boolean} return true if operator is one of the values
    */
   oneOf(operator, values) {

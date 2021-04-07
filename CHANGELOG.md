@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.0.0...v2.1.0) (2021-04-07)
+
+
+### Features
+
+* add cookies dep. to default ([b01a59f](https://github.com/ftdgomez/ftdgomez_utils/commit/b01a59ff961cceb156b49ae10b92fc6eb24e645e))
+
 ## 2.0.0 (2021-04-06)
 
 

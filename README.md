@@ -24,23 +24,23 @@ client side.
 ### TODO:
 Write test for all functions:
 
-[] ->'_handleError'
-[] ->'_fetch'
-[] ->'_setArrayToObject'
-[] ->'_formatDate'
-[] ->'_daysFromDate'
-[] ->'_checkAuthorizationCookie'
-[] ->'_objectHasValue'
-[] ->'_objectSize'
-[] ->'_where'
-[] ->'_middleware
-[x] ->'isString'
-[x] ->'isAccepted'
-[] ->'oneOf'
-[] ->'isNumber'
-[] ->'isDate'
-[] ->'isEmail'
-[] ->'isVzlaRif'
-[] ->'isVzlaPhone'
-[] ->'passwordEval'
-[] ->'isArray
+- [ ] ->'_handleError'
+- [ ] ->'_fetch'
+- [ ] ->'_setArrayToObject'
+- [ ] ->'_formatDate'
+- [ ] ->'_daysFromDate'
+- [ ] ->'_checkAuthorizationCookie'
+- [ ] ->'_objectHasValue'
+- [ ] ->'_objectSize'
+- [ ] ->'_where'
+- [ ] ->'_middleware
+- [x] ->'isString'
+- [x] ->'isAccepted'
+- [x] ->'oneOf'
+- [ ] ->'isNumber'
+- [ ] ->'isDate'
+- [ ] ->'isEmail'
+- [ ] ->'isVzlaRif'
+- [ ] ->'isVzlaPhone'
+- [ ] ->'passwordEval'
+- [ ] ->'isArray

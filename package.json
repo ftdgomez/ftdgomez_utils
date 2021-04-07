@@ -9,6 +9,7 @@
     "clean": "rm -rf ./dist",
     "release": "standard-version",
     "release:minor": "npm run release -- --release-as minor",
+    "push-release": "git push --follow-tags origin main && npm publish",
     "generate:docs": "jsdoc2md",
     "test": "jest"
   },

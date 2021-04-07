@@ -1,2 +1,2 @@
 export { validationMethods } from './src/methods.js';
-export * from './src/utils.js';
+export { utils } from './src/utils.js';

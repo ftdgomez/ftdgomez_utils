@@ -86,7 +86,7 @@ export const utils = {
      * @param {Error} error An Error throw for another function
      */
     catch(res, error) {
-      _handleError(res, error);
+      utils._handleError(res, error);
     },
   },
 

@@ -1,3 +1,14 @@
 {
-    "presets":["@babel/preset-env", "minify"]
+    "presets": [
+
+          "minify",
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
 }

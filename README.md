@@ -1,10 +1,10 @@
-# What the F is this?!
+# What is this?!
 
 Just a bunch of helpers functions that I use all the time.
 Functions are self documented with JSDoc format
 
 # Installation
-`npm i ftdgomez_utils --save`
+`npm i ftdgomez_utils`
 
 See [utils.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) for documentation
 
@@ -40,9 +40,7 @@ See [utils.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) fo
 
 ```javascript
 
-import { utils } from 'ftdgomez-utils';
-
-const { _objectSize, _where } = validationMethods;
+import { _objectSize, _where } from 'ftdgomez-utils';
 
 _objectSize({ a: 1, b: 2, c: 3}) // return 3
 
@@ -52,27 +50,3 @@ _where(
   ); // return [{ id: 1, name: 'John' }]
 
 ```
-
-### TODO:
-Write test for all functions:
-
-- [ ] ->'_handleError'
-- [ ] ->'_fetch'
-- [ ] ->'_setArrayToObject'
-- [ ] ->'_formatDate'
-- [ ] ->'_daysFromDate'
-- [ ] ->'_checkAuthorizationCookie'
-- [ ] ->'_objectHasValue'
-- [x] ->'_objectSize'
-- [ ] ->'_where'
-- [ ] ->'_middleware
-- [x] ->'isString'
-- [x] ->'isAccepted'
-- [x] ->'oneOf'
-- [ ] ->'isNumber'
-- [ ] ->'isDate'
-- [ ] ->'isEmail'
-- [ ] ->'isVzlaRif'
-- [ ] ->'isVzlaPhone'
-- [ ] ->'passwordEval'
-- [ ] ->'isArray

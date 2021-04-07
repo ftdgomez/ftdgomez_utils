@@ -1,2 +1,10 @@
 export { validationMethods } from './src/methods.js';
-export { utils } from './src/utils.js';
+export { _handleError } from './src/utils.js';
+export { _fetch } from './src/utils.js';
+export { _middleware } from './src/utils.js';
+export { _setArrayToObject } from './src/utils.js';
+export { _daysFromDate } from './src/utils.js';
+export { _checkAuthorizationCookie } from './src/utils.js';
+export { _objectHasValue } from './src/utils.js';
+export { _objectSize } from './src/utils.js';
+export { _where } from './src/utils.js';

@@ -34,13 +34,13 @@ Write test for all functions:
 [] ->'_objectSize'
 [] ->'_where'
 [] ->'_middleware
-[] ->'isString'
-[] ->'isAccepted'
+[x] ->'isString'
+[x] ->'isAccepted'
 [] ->'oneOf'
 [] ->'isNumber'
 [] ->'isDate'
 [] ->'isEmail'
-[] ->'isValidRif'
-[] ->'isValidPhone'
+[] ->'isVzlaRif'
+[] ->'isVzlaPhone'
 [] ->'passwordEval'
 [] ->'isArray

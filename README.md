@@ -24,7 +24,7 @@ client side.
 For now, there are two set of functions. The `validationMethods` and `utils`.
 
 #### Validation Methods:
-See [validationMethods.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/utils.md) for documentation
+See [validationMethods.md](https://github.com/ftdgomez/ftdgomez_utils/blob/main/validationMethods.md) for documentation
 ```javascript
 import { validationMethods } from 'ftdgomez-utils';
 

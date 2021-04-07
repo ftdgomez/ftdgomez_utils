@@ -30,11 +30,11 @@ describe('function: isAccepted', () => {
     test('le pasan un string "on"', () => {
       expect(isAccepted('on')).toBe(true);
     });
-  });
-  test('le pasan un numero 1', () => {
-    expect(isAccepted(1)).toBe(true);
-  });
-  test('le pasan un true', () => {
-    expect(isAccepted(true)).toBe(true);
+    test('le pasan un numero 1', () => {
+      expect(isAccepted(1)).toBe(true);
+    });
+    test('le pasan un true', () => {
+      expect(isAccepted(true)).toBe(true);
+    });
   });
 });

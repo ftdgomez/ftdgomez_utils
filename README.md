@@ -20,3 +20,27 @@ client side.
 - NEXT_PUBLIC_AUTH_COOKIE_NAME
 > used by _checkAuthorizationCookie
 
+
+### TODO:
+Write test for all functions:
+
+[] ->'_handleError'
+[] ->'_fetch'
+[] ->'_setArrayToObject'
+[] ->'_formatDate'
+[] ->'_daysFromDate'
+[] ->'_checkAuthorizationCookie'
+[] ->'_objectHasValue'
+[] ->'_objectSize'
+[] ->'_where'
+[] ->'_middleware
+[x] ->'isString'
+[x] ->'isAccepted'
+[] ->'oneOf'
+[] ->'isNumber'
+[] ->'isDate'
+[] ->'isEmail'
+[] ->'isVzlaRif'
+[] ->'isVzlaPhone'
+[] ->'passwordEval'
+[] ->'isArray

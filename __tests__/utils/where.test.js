@@ -12,4 +12,15 @@ describe('Function: _where', () => {
       ),
     ).toMatchObject([{ id: 1, name: 'John' }]);
   });
+  test('Pasandole un objeto que contenga false', () => {
+    expect(
+      _where(
+        [
+          { id: 1, name: 'John', deleted: false },
+          { id: 2, name: 'Jane', deleted: true },
+        ],
+        { deleted: false },
+      ),
+    ).toMatchObject([{ id: 1, name: 'John', deleted: false }]);
+  });
 });

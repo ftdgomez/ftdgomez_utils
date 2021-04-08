@@ -221,3 +221,18 @@ export const _where = (array, properties) => {
   });
   return response;
 };
+
+/**
+ * @param {Object} obj
+ * @returns a new object without the key value pairs that begin with "_"
+ */
+export const _WithoutPrivateKeys = (obj) => {
+  const keys = Object.keys(obj);
+  const wpk = {};
+  keys.forEach((key) => {
+    if (!key.startsWith('_')) {
+      wpk[key] = obj[key];
+    }
+  });
+  return wpk;
+};

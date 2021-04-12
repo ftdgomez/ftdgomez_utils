@@ -4,6 +4,7 @@ export { _fetch } from './src/utils';
 export { _middleware } from './src/utils';
 export { _setArrayToObject } from './src/utils';
 export { _daysFromDate } from './src/utils';
+export { _formatDate } from './src/utils';
 export { _checkAuthorizationCookie } from './src/utils';
 export { _objectHasValue } from './src/utils';
 export { _objectSize } from './src/utils';

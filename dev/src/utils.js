@@ -142,7 +142,7 @@ export const _setArrayToObject = (array, key) => {
  */
 export const _formatDate = (d) => {
   const date = new Date(d);
-  return `${date.getDate()} - ${date.getMonth() + 1} - ${date.getFullYear()}`;
+  return `${date.getDate()}-${date.getMonth() + 1 < 10 ? '0' : ''}${date.getMonth() + 1}-${date.getFullYear()}`;
 };
 
 /**

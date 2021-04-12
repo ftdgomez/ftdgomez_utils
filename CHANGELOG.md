@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.4](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.3...v2.5.4) (2021-04-12)
+
+
+### Bug Fixes
+
+* add _formatDate to index file and add some test ([02497e1](https://github.com/ftdgomez/ftdgomez_utils/commit/02497e1ed981eae7ec8f79682e66fb3c09d83ee1))
+
 ### [2.5.3](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.2...v2.5.3) (2021-04-08)
 
 

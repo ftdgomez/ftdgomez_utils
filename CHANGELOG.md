@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.5](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.4...v2.5.5) (2021-04-30)
+
+
+### Bug Fixes
+
+* add param cookieName to checkAuthorizationCookie ([6551db9](https://github.com/ftdgomez/ftdgomez_utils/commit/6551db9d07c103d9fb52a4fc20c4cf1bc8b887c2))
+* type on last commit ([0f606a8](https://github.com/ftdgomez/ftdgomez_utils/commit/0f606a83ec272e917ed3145dc80d7b8019e0b2ab))
+
 ### [2.5.4](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.3...v2.5.4) (2021-04-12)
 
 

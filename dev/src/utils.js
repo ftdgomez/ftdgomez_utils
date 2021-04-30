@@ -21,9 +21,7 @@ export const _handleError = (res, error) => {
  * @returns fetch response as parsed json
  */
 export const _fetch = async (url, method, body, addHeaders) => {
-  const urlBase =
-    process.env.API_URL_BASE || process.env.NEXT_PUBLIC_API_URL_BASE || '';
-  const URL = urlBase + url;
+  const URL = url;
   const config = {};
   config.method = method || 'GET';
   if (body) config.body = JSON.stringify(body);
@@ -161,13 +159,10 @@ export const _daysFromDate = (date, days = 0) => {
  * @param {String} from path to redirect if there is no credentias
  * @returns {Object} userInfo object or redirect object if there is a error
  */
-export const _checkAuthorizationCookie = (context, from) => {
+export const _checkAuthorizationCookie = (context, from, cookieName) => {
   const { req, res } = context;
   const Cookies = require('cookies');
-  const cookieName =
-    process.env.AUTH_COOKIE_NAME ||
-    process.env.NEXT_PUBLIC_AUTH_COOKIE_NAME ||
-    'userInfo';
+  const cookieName = cookieName || 'userInfo';
   const userInfo = new Cookies(req, res).get(cookieName);
   if (userInfo) {
     return JSON.parse(decodeURIComponent(userInfo));

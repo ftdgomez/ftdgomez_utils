@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.6](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.5...v2.5.6) (2021-04-30)
+
 ### [2.5.5](https://github.com/ftdgomez/ftdgomez_utils/compare/v2.5.4...v2.5.5) (2021-04-30)
 
 

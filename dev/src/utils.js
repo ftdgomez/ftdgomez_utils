@@ -159,10 +159,9 @@ export const _daysFromDate = (date, days = 0) => {
  * @param {String} from path to redirect if there is no credentias
  * @returns {Object} userInfo object or redirect object if there is a error
  */
-export const _checkAuthorizationCookie = (context, from, cookieName) => {
+export const _checkAuthorizationCookie = (context, from, cookieName='userInfo') => {
   const { req, res } = context;
   const Cookies = require('cookies');
-  const cookieName = cookieName || 'userInfo';
   const userInfo = new Cookies(req, res).get(cookieName);
   if (userInfo) {
     return JSON.parse(decodeURIComponent(userInfo));
